@@ -30,6 +30,7 @@ const datas = [
         nama: "MyPortofolio",
         deskripsi: "A web apps to show my web development journey",
         stack: "ReactJs, TailwindCSS",
+        link: 'https://658106f53eaa7e00087d8e2a--chimerical-cuchufli-dcdae5.netlify.app/'
         linkGithub: 'https://github.com/Miftah130300/portofolio',
         pictures: portofolio
     },
