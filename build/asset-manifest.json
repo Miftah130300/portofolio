@@ -1,14 +1,28 @@
 {
   "files": {
-    "main.css": "/static/css/main.596179a4.css",
-    "main.js": "/static/js/main.ed18d740.js",
-    "static/media/Oji.jpg": "/static/media/Oji.fc084e9c1ae266ae62df.jpg",
+    "main.css": "/static/css/main.f6fdf276.css",
+    "main.js": "/static/js/main.5154908e.js",
+    "static/media/about-page.png": "/static/media/about-page.a24e270081cc2e64f796.png",
+    "static/media/landingPage.png": "/static/media/landingPage.4fafdb6303ec5370e776.png",
+    "static/media/portofolio.png": "/static/media/portofolio.938ce58771bb2ee96bfa.png",
+    "static/media/findresto.png": "/static/media/findresto.47bebba8108b32c22132.png",
+    "static/media/tailwindcss.png": "/static/media/tailwindcss.23758cf4d8b2af3bfa1a.png",
+    "static/media/mynote.png": "/static/media/mynote.9d83fc9e1a6c1d81299c.png",
+    "static/media/bookshelf.png": "/static/media/bookshelf.eee0694190a6acfb483d.png",
+    "static/media/instagram.png": "/static/media/instagram.b23d18f0fb07e15baca9.png",
+    "static/media/github.png": "/static/media/github.80b14421254da35fc608.png",
+    "static/media/instagram-black.png": "/static/media/instagram-black.bc603acad2a8cb3bd098.png",
+    "static/media/figma.png": "/static/media/figma.72fbc535ebe253a5dbc4.png",
+    "static/media/github-black.png": "/static/media/github-black.05f6c17b8cd04c28456f.png",
+    "static/media/css-3.png": "/static/media/css-3.463e319bad8e0edf1ef7.png",
+    "static/media/linkedin.png": "/static/media/linkedin.35305fa80a62d5f351d2.png",
+    "static/media/js.png": "/static/media/js.3dfb665e058d08c99f28.png",
     "index.html": "/index.html",
-    "main.596179a4.css.map": "/static/css/main.596179a4.css.map",
-    "main.ed18d740.js.map": "/static/js/main.ed18d740.js.map"
+    "main.f6fdf276.css.map": "/static/css/main.f6fdf276.css.map",
+    "main.5154908e.js.map": "/static/js/main.5154908e.js.map"
   },
   "entrypoints": [
-    "static/css/main.596179a4.css",
-    "static/js/main.ed18d740.js"
+    "static/css/main.f6fdf276.css",
+    "static/js/main.5154908e.js"
   ]
 }
