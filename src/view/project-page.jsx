@@ -28,16 +28,19 @@ export function ProjectPage(){
                         </div>
                     ): (
                     filteredDatas.map((data, index)=> (
-                    <div key={index} className="overflow-hidden shadow-xl rounded-[20px] max-w-md max-h-15 m-5 xl:justify-center font-['Poppins']">
+                    <div key={index} className="overflow-hidden shadow-[3px_0px_20px_0px_rgba(0,0,0,0.3)] rounded-[20px] max-w-md max-h-15 m-5 xl:justify-center font-['Poppins']">
                         <img className="w-full h-[200px] object-cover" src={data.pictures} alt="Project Cover"/>
                         <div className="px-6 py-4">
                             <div className="mb-2 text-blue-950"><h1><strong>{data.nama}</strong></h1></div>
                             <p className="text-black text-xs text-opacity-40">{data.deskripsi}</p>
                             <p className="text-black text-xs text-opacity-40">Tech Stack: {data.stack}</p>
                         </div>
-                        <div className="px-6 pt-4 pb-6">
-                            <button className="bg-blue-950 hover:bg-blue-900 text-white font-bold py-1 px-2 rounded text-xs">
-                                <a href={data.link} target="_blank" rel="noopener noreferrer">Visit</a>
+                        <div className="px-6 pt-4 pb-6 flex flex-row gap-2">
+                            <button className="bg-blue-950 hover:bg-blue-900 text-white w-full h-full max-w-[80px] p-1 rounded-lg text-[12px]">
+                                <a href={data.link} target="_blank" rel="noopener noreferrer">View Page</a>
+                            </button>
+                            <button className="bg-blue-950 hover:bg-blue-900 text-white w-full h-full max-w-[90px] p-1 rounded-lg text-[12px]">
+                                <a href={data.linkGithub} target="_blank" rel="noopener noreferrer">View GitHub</a>
                             </button>
                         </div>
                     </div>

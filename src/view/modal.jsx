@@ -42,7 +42,7 @@ export function Modal({ open, close, openedAlert}) {
 
   return (
     <>
-    <div className="max-w-[340px] xl:max-w-[440px] max-h-[460px] w-full h-full bg-white rounded-[20px] flex fixed inset-0 my-auto shadow-[0_5px_60px_5px_rgba(0,0,0,0.3)] mx-auto">
+    <div className="max-w-[340px] md:max-w-[420px] xl:max-w-[440px] max-h-[460px] w-full h-full bg-white rounded-[20px] flex fixed inset-0 my-auto shadow-[0_5px_60px_5px_rgba(0,0,0,0.3)] mx-auto">
         <div className='flex flex-col gap-3 justify-center items-center w-full h-full mx-auto mt-3'>
                 <ul className="flex bg-transparent mx-auto">
                     <li className='m-4'>
