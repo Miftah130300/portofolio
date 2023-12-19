@@ -8,6 +8,7 @@ import Linkedin from '../asset/linkedin.png'
 import Blackgithub from '../asset/github-black.png'
 import BlackInstagram from '../asset/instagram-black.png'
 import BlackLinkedin from '../asset/linkedin-black.png'
+import ReHob from '../asset/ReHob.png'
 
 const datas = [
     {
@@ -15,18 +16,21 @@ const datas = [
         deskripsi: "A platform that help people create their daily notes",
         stack: "ReactJs",
         link: 'https://gregarious-cheesecake-f72f2d.netlify.app/',
+        linkGithub: 'https://github.com/Miftah130300/NoteApps-ReactJs',
         pictures: mynote
     }, 
         {
         nama: "FindResto",
         deskripsi: "A web apps to find recommendation restaurant",
         stack: "HTML, CSS, JavaScript",
+        linkGithub: 'https://github.com/Miftah130300/RestaurantCatalogue-PWA-Dicoding',
         pictures: findresto
     },
         {
         nama: "MyPortofolio",
         deskripsi: "A web apps to show my web development journey",
         stack: "ReactJs, TailwindCSS",
+        linkGithub: 'https://github.com/Miftah130300/portofolio',
         pictures: portofolio
     },
         {
@@ -34,7 +38,16 @@ const datas = [
         deskripsi: "An apps to help people write their reading-lists. This project is built in order to complete Dicoding assignment.",
         stack: "HTML, CSS, JavaScript",
         link: 'https://brilliant-belekoy-ba09ad.netlify.app/',
+        linkGithub: 'https://github.com/MuhammadAlfitrianAnanda/ReHob?tab=readme-ov-file',
         pictures: bookshelf
+    },
+        {
+        nama: "ReHob: Rekomendasi Hobi",
+        deskripsi: "A website designed to help people find their hobbies and communities, allowing users to interact with others who share similar interests.",
+        stack: "HTML, CSS, JavaScript",
+        link: 'https://rehob.000webhostapp.com/',
+        linkGithub: 'https://github.com/MuhammadAlfitrianAnanda/ReHob?tab=readme-ov-file',
+        pictures: ReHob
     }
 
 
