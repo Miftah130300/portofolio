@@ -75,21 +75,21 @@ export function NavBar() {
           <nav className='flex flex-col items-center' id="navbar">
             <div className={`${
               color
-                ? "flex justify-between items-center fixed w-full bg-white shadow-md text-blue-950 p-3"
-                : "flex justify-end items-center fixed w-full bg-transparent text-white p-3"
+                ? "flex justify-between items-center fixed w-full bg-white shadow-md text-blue-950 p-1"
+                : "flex justify-end items-center fixed w-full bg-transparent text-white p-1"
             }`}>
-                    {showText && (
-                      <div className="mx-4 my-auto text-blue-150 font-semibold">
-                        <h1 className="font-semibold text-[24px]">CodeByOji</h1>
-                      </div>
-                    )}
-                    <div className="flex justify-end lg:hidden">
+                  {showText && (
+                      <>
+                  <div className="mx-4 my-auto text-blue-150 font-semibold">
+                    <h1 className="font-semibold text-[20px]">CodeByOji</h1>
+                  </div>
+                  <div className="flex justify-end lg:hidden">
                       <Hamburger toggled={isOpen} toggle={setOpen} direction="right" />
-                    </div>
-                    <ul className="hidden lg:flex mx-4">
+                  </div>
+                  <ul className="text-[16px] hidden lg:flex mx-4">
                       <li className="m-4 transform hover:scale-90 transition-transform duration-300 ease-in-out cursor-pointer">
                         <Link
-                          className="text-[18px] font-semibold"
+                          className="font-semibold"
                           activeClass="active"
                           to="landingpage"
                           spy={true}
@@ -102,7 +102,7 @@ export function NavBar() {
                       </li>
                       <li className="m-4 transform hover:scale-90 transition-transform duration-300 ease-in-out cursor-pointer">
                         <Link
-                          className="text-[18px] font-semibold"
+                          className="font-semibold"
                           activeClass="active"
                           to="projectpage"
                           spy={true}
@@ -115,7 +115,7 @@ export function NavBar() {
                       </li>
                       <li className="m-4 transform hover:scale-90 transition-transform duration-300 ease-in-out cursor-pointer">
                         <Link
-                          className="text-[18px] font-semibold"
+                          className="font-semibold"
                           activeClass="active"
                           to="techstack"
                           spy={true}
@@ -128,7 +128,7 @@ export function NavBar() {
                       </li>
                       <li className="m-4 transform hover:scale-90 transition-transform duration-300 ease-in-out cursor-pointer">
                         <Link
-                          className="text-[18px] font-semibold"
+                          className="font-semibold"
                           activeClass="active"
                           to="about"
                           spy={true}
@@ -139,8 +139,9 @@ export function NavBar() {
                           About Me
                         </Link>
                       </li>
-                      <li className="m-4 transform hover:scale-90 transition-transform duration-300 ease-in-out cursor-pointer font-semibold text-[18px]"><a href="https://drive.google.com/drive/folders/1plz1gPzxyVUmkuiGUj28QXPn7JF0qXCV?usp=sharing">My Certificate</a></li>
-                    </ul>
+                      <li className="m-4 transform hover:scale-90 transition-transform duration-300 ease-in-out cursor-pointer font-semibold"><a href="https://drive.google.com/drive/folders/1plz1gPzxyVUmkuiGUj28QXPn7JF0qXCV?usp=sharing">My Certificate</a></li>
+                    </ul></>
+                    )}
             </div>
             {isOpen && (
               <div className="bg-white h-full max-h-[25%] w-full px-4">

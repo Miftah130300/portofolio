@@ -28,7 +28,7 @@ export function TechStack() {
               <label className='font-bold text-blue-950'>ReactJS</label>
           </div>
           <div className='flex flex-col justify-center items-center'>
-              <img className='m-5 h-full w-full max-w-[120px] max-h-[85px] p-3' src={tailwind} alt='tailwindcss logo'/>
+              <img className='m-5 h-full w-full max-w-[125px] max-h-[100px] p-3' src={tailwind} alt='tailwindcss logo'/>
               <label className='font-bold text-blue-950'>TailwindCSS</label>
           </div>
           <div className='flex flex-col justify-center items-center'>
