@@ -63,7 +63,7 @@ export function NavBar() {
                   <div className="text-blue-950 font-medium"><Link to="projectpage">Project</Link></div>
                   <div className="text-blue-950 font-medium"><Link to="techstack">Stack</Link></div>
                   <div className="text-blue-950 font-medium"><Link to="about">About Me</Link></div>
-                  <div className="text-blue-950 font-medium"><a href="https://drive.google.com/drive/folders/1plz1gPzxyVUmkuiGUj28QXPn7JF0qXCV?usp=sharing">My Certificate</a></div>
+                  <div className="text-blue-950 font-medium"><a href="https://drive.google.com/drive/folders/1plz1gPzxyVUmkuiGUj28QXPn7JF0qXCV?usp=sharing" target="_blank" rel="noopener noreferrer">My Certificate</a></div>
                 </div>
               </div>
             )}
@@ -139,7 +139,8 @@ export function NavBar() {
                           About Me
                         </Link>
                       </li>
-                      <li className="m-4 transform hover:scale-90 transition-transform duration-300 ease-in-out cursor-pointer font-semibold"><a href="https://drive.google.com/drive/folders/1plz1gPzxyVUmkuiGUj28QXPn7JF0qXCV?usp=sharing">My Certificate</a></li>
+                      <li className="m-4 transform hover:scale-90 transition-transform duration-300 ease-in-out cursor-pointer font-semibold"><a href="https://drive.google.com/drive/folders/1plz1gPzxyVUmkuiGUj28QXPn7JF0qXCV?usp=sharing"
+                      target="_blank" rel="noopener noreferrer">My Certificate</a></li>
                     </ul></>
                     )}
             </div>
