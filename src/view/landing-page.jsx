@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import OjiHero from '../asset/ojicrop4.png';
 import { NavBar } from './nav-bar';
-import CVMiftah from '../asset/Miftah Fauzy-Nextjs.pdf'
+import CVMiftah from '../asset/MiftahFauzy-CV.pdf'
 
 export function LandingPage({ onClick }) {
   const [isMobile, setIsMobile] = useState(window.innerWidth < 500);
