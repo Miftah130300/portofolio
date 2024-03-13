@@ -9,8 +9,17 @@ import Blackgithub from '../asset/github-black.png'
 import BlackInstagram from '../asset/instagram-black.png'
 import BlackLinkedin from '../asset/linkedin-black.png'
 import ReHob from '../asset/ReHob.png'
+import Minisya from '../asset/minisyalaundry.png'
 
 const datas = [
+    {
+        nama: "Minisya Laundry",
+        deskripsi: "A landing page website for laundry.",
+        stack: "Nextjs, TailwindCSS",
+        link: 'https://lovely-youtiao-f39bab.netlify.app/',
+        linkGithub: 'https://github.com/Miftah130300/minisya-laundry',
+        pictures: Minisya
+    },
     {
         nama: "My Note",
         deskripsi: "A platform that help people create their daily notes",
@@ -48,7 +57,7 @@ const datas = [
         link: 'https://rehob.000webhostapp.com/',
         linkGithub: 'https://github.com/MuhammadAlfitrianAnanda/ReHob?tab=readme-ov-file',
         pictures: ReHob
-    }
+    },
 
 
 ]
