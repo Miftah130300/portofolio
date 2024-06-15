@@ -10,8 +10,17 @@ import BlackInstagram from '../asset/instagram-black.png'
 import BlackLinkedin from '../asset/linkedin-black.png'
 import ReHob from '../asset/ReHob.png'
 import Minisya from '../asset/minisyalaundry.png'
+import Ksatiara from '../asset/ksatiara.png'
 
 const datas = [
+    {
+        nama: "Ksatiara Profile",
+        deskripsi: "A web profile of Rumah Kepemimpinan Jakarta batch 11 awardees.",
+        stack: "Nextjs, TailwindCSS",
+        link: 'https://ksatiara11.netlify.app/',
+        linkGithub: 'https://github.com/Miftah130300/web-ksatiara',
+        pictures: Ksatiara
+    },
     {
         nama: "Minisya Laundry",
         deskripsi: "A landing page website for laundry.",
