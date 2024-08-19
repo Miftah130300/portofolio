@@ -29,7 +29,7 @@ export function LandingPage({ onClick }) {
               Miftah Fauzy
             </div>
             <div className="text-blue-950 text-[16px] sm:text-[18px] md:text-[18px] lg:text-[20px] xl:text-[16px] font-bold font-['Poppins'] my-5 text-center">
-              A Front-End Developer. I love to design and code web.
+              A Front-End Developer with a passion for product, turning ideas into reality through code.
             </div>
             <div className='flex justify-between w-full max-w-[250px]'>
               <button className="w-full max-w-[120px] h-11 bg-teal-400 hover:bg-teal-600 text-white rounded-[10px] text-[15px] font-bold font-['Mochiy Pop One'] mt-20" 
@@ -51,7 +51,7 @@ export function LandingPage({ onClick }) {
                 Miftah Fauzy
               </div>
               <div className="text-white text-[16px] font-['Poppins'] text-center xl:text-center">
-                A Front-End Developer. I'm passionate about UI/UX and Front-End Development. I love to design and code web.
+                A Front-End Developer with a passion for product, turning ideas into reality through code.
               </div>
             </div>
             <div className='flex justify-between w-full max-w-[250px] mt-20'>
