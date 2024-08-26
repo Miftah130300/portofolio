@@ -10,8 +10,26 @@ import BlackInstagram from '../asset/instagram-black.png'
 import BlackLinkedin from '../asset/linkedin-black.png'
 import ReHob from '../asset/ReHob.png'
 import Minisya from '../asset/minisyalaundry.png'
+import Ksatiara from '../asset/ksatiara.png'
+import Dias from '../asset/diaspartners.png'
 
 const datas = [
+    {
+        nama: "Dias & Partners Web Profile (in development)",
+        deskripsi: "A web profile that is showcasing projects of creative agency, Dias & Partners.",
+        stack: "Nextjs, TailwindCSS",
+        link: 'https://dias-partners.vercel.app/',
+        linkGithub: 'https://github.com/Miftah130300/dias-partners',
+        pictures: Dias
+    },
+    {
+        nama: "Ksatiara web profile (in development)",
+        deskripsi: "A web profile that is showcasing moments and dreams of Rumah Kepemimpinan awardee.",
+        stack: "Nextjs, TailwindCSS",
+        link: 'https://ksatiara11.netlify.app/',
+        linkGithub: 'https://github.com/Miftah130300/web-ksatiara',
+        pictures: Ksatiara
+    },
     {
         nama: "Minisya Laundry",
         deskripsi: "A landing page website for laundry.",
