@@ -12,10 +12,21 @@ import ReHob from '../asset/ReHob.png'
 import Minisya from '../asset/minisyalaundry.png'
 import Ksatiara from '../asset/ksatiara.png'
 import Dias from '../asset/diaspartners.png'
+import Rumi from "../asset/rumi.png"
 
 const datas = [
+        {
+        nama: "Rumi Properti",
+        status: "In development",
+        deskripsi: "A property agency service that helps you find, buy, or rent the best properties with ease and reliability.",
+        stack: "Nextjs, Strapi, TailwindCSS",
+        link: 'https://rumiproperti.com',
+        linkGithub: ' https://github.com/Miftah130300/portofolio.git',
+        pictures: Rumi
+    },
     {
-        nama: "Dias & Partners Web Profile (in development)",
+        nama: "Dias & Partners Web Profile",
+        status: "In development",
         deskripsi: "A web profile that is showcasing projects of creative agency, Dias & Partners.",
         stack: "Nextjs, TailwindCSS",
         link: 'https://dias-partners.vercel.app/',
@@ -23,7 +34,8 @@ const datas = [
         pictures: Dias
     },
     {
-        nama: "Ksatiara web profile (in development)",
+        nama: "Ksatiara web profile",
+        status: "In development",
         deskripsi: "A web profile that is showcasing moments and dreams of Rumah Kepemimpinan awardee.",
         stack: "Nextjs, TailwindCSS",
         link: 'https://ksatiara11.netlify.app/',
@@ -32,6 +44,7 @@ const datas = [
     },
     {
         nama: "Minisya Laundry",
+        status: "Done",
         deskripsi: "A landing page website for laundry.",
         stack: "Nextjs, TailwindCSS",
         link: 'https://lovely-youtiao-f39bab.netlify.app/',
@@ -40,6 +53,7 @@ const datas = [
     },
     {
         nama: "My Note",
+        status: "Done",
         deskripsi: "A platform that help people create their daily notes",
         stack: "ReactJs",
         link: 'https://gregarious-cheesecake-f72f2d.netlify.app/',
@@ -48,6 +62,7 @@ const datas = [
     }, 
         {
         nama: "FindResto",
+        status: "Done",
         deskripsi: "A web apps to find recommendation restaurant",
         stack: "HTML, CSS, JavaScript",
         linkGithub: 'https://github.com/Miftah130300/RestaurantCatalogue-PWA-Dicoding',
@@ -55,6 +70,7 @@ const datas = [
     },
         {
         nama: "MyPortofolio",
+        status: "Done",
         deskripsi: "A web apps to show my web development journey",
         stack: "ReactJs, TailwindCSS",
         linkGithub: 'https://github.com/Miftah130300/portofolio',
@@ -62,6 +78,7 @@ const datas = [
     },
         {
         nama: "Bookshelf Apps",
+        status: "Done",
         deskripsi: "An apps to help people write their reading-lists. This project is built in order to complete Dicoding assignment.",
         stack: "HTML, CSS, JavaScript",
         link: 'https://brilliant-belekoy-ba09ad.netlify.app/',
@@ -70,6 +87,7 @@ const datas = [
     },
         {
         nama: "ReHob: Rekomendasi Hobi",
+        status: "Done",
         deskripsi: "A website designed to help people find their hobbies and communities, allowing users to interact with others who share similar interests.",
         stack: "HTML, CSS, JavaScript",
         link: 'https://rehob.000webhostapp.com/',
